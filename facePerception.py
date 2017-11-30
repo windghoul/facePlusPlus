@@ -17,6 +17,8 @@ def cap():
         i+= 1
         # if cv2.waitKey(1) & 0xFF == 27:
         #     break
+    # 释放所有资源
+    cap.release()
 
 # 人脸识别模块载入
 def faceDetector():
@@ -43,9 +45,9 @@ def faceDetector():
         faceFileName = "./faced/face"+ str(i)+ ".jpg"
         cv2.imwrite(faceFileName,face_save)
         cv2.waitKey(30)
-        # 释放所有资源
-        cap.release()
-        cv2.destroyAllWindows()
+    # 释放资源
+    cv2.destroyAllWindows()
+
 
 
 if __name__ == "__main__":

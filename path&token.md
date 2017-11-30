@@ -1,0 +1,10 @@
+{'./faced/face1.jpg': 'fe0fd82b5994b6c250e61be986cea100'}
+{'./faced/face2.jpg': 'e95b49d46ad27af184eb96c2f4b72330'}
+{'./faced/face3.jpg': '54052636b3a3b494d11e4c2c1c0879d9'}
+{'./faced/face4.jpg': '69b74a5bd20dd1517934a19970f41bee'}
+{'./faced/face5.jpg': '6b893d8502d25ac5791963e1554caf50'}
+{'./faced/face6.jpg': '4aac5aa8263aa2f008404a01a5f671c4'}
+{'./faced/face7.jpg': '5aaf052e72902713d2ea0f224078ae2c'}
+{'./faced/face8.jpg': '9ff274553375ad88bb5773103c2555ce'}
+{'./faced/face9.jpg': 'a07a7d1d9cb503602ad60fd8adf51869'}
+{'./faced/face0.jpg': '046e73611848d78b7b451eeb1d7348a7'}
