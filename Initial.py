@@ -28,19 +28,19 @@ def facePlusPlus(filenPath):
 
     return face_token
 
-# # 创建画图实例
-# Draw = photoDraw()
-#
-# # 提取json中关于脸部位置的数据,并且在图片上画出方框
-# face_rectangle = req_dict.get("faces")
-# for index in range(len(face_rectangle)):
-#     face_rectangle_point = face_rectangle[index].get("face_rectangle")
-#     Draw.Draw(face_rectangle_point.get("top"),face_rectangle_point.get("left"),face_rectangle_point.get("width"),face_rectangle_point.get("height"))
-#
-#
-# Draw.show()
-# # print(face_rectangle_point)
-# # print(face_rectangle_point.get("width"))
+    # 创建画图实例
+    Draw = photoDraw()
+
+    # 提取json中关于脸部位置的数据,并且在图片上画出方框
+    face_rectangle = req_dict.get("faces")
+    for index in range(len(face_rectangle)):
+        face_rectangle_point = face_rectangle[index].get("face_rectangle")
+        Draw.Draw(face_rectangle_point.get("top"),face_rectangle_point.get("left"),face_rectangle_point.get("width"),face_rectangle_point.get("height"))
+
+
+    Draw.show()
+    # print(face_rectangle_point)
+    # print(face_rectangle_point.get("width"))
 
 
 if __name__ == "__main__":
